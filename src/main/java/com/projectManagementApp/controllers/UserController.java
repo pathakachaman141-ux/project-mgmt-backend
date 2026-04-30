@@ -172,4 +172,10 @@ public class UserController {
 	    String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$";
 	    return email.matches(emailRegex);
 	}
+
+
+	@GetMapping("/hello")
+	public String home(){
+		return "Hello World, Server launched successfully"
+	}
 }
