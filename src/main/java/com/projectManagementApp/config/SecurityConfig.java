@@ -51,7 +51,7 @@ public class SecurityConfig {
                                "/swagger-ui.html", "/swagger-ui/index.html", 
                                "/swagger-resources/**", "/swagger-resources", 
                                "/webjars/**", "/configuration/ui", 
-                               "/configuration/security", "/swagger-config/**").permitAll()
+                               "/configuration/security", "/swagger-config/**", "/api/users/hello").permitAll()
                 .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll() // Add this for preflight
                 .anyRequest().authenticated()
             )
