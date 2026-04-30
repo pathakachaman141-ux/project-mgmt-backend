@@ -176,6 +176,6 @@ public class UserController {
 
 	@GetMapping("/hello")
 	public String home(){
-		return "Hello World, Server launched successfully"
+		return "Hello World, Server launched successfully";
 	}
 }
