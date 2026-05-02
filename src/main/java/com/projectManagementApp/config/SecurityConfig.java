@@ -79,6 +79,7 @@ public class SecurityConfig {
         configuration.addAllowedOrigin("https://projectmanagentapp-frontend.onrender.com");
         configuration.addAllowedOrigin("https://projectmanagentapp-frontend.onrender.com");
         configuration.addAllowedOrigin("http://localhost:5173");
+        configuration.addAllowedOrigin("https://project-mgmt-backend-production-b1d3.up.railway.app");
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
         configuration.setMaxAge(3600L);
