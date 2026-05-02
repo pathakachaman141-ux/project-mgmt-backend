@@ -76,7 +76,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowCredentials(true);
         configuration.addAllowedOrigin("https://project-mgmt-frontend-o706.onrender.com");
-        configuration.addAllowedOrigin("https://spontaneous-chaja-2084a3.netlify.app");
+        configuration.addAllowedOrigin("https://projectmanagentapp-frontend.onrender.com");
         configuration.addAllowedOrigin("https://projectmanagentapp-frontend.onrender.com");
         configuration.addAllowedOrigin("http://localhost:5173");
         configuration.addAllowedHeader("*");
